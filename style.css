@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600&display=swap');
 
 :root {
   --bg: #111214;
@@ -94,8 +93,8 @@ a {
 }
 
 .eyebrow {
-  font: 11px 'DM Mono', monospace;
-  letter-spacing: 1.5px;
+  font: 500 12px 'Space Grotesk', sans-serif;
+  letter-spacing: 2px;
   color: var(--accent);
 }
 
@@ -270,7 +269,7 @@ h2 span {
   border: 1px solid var(--line);
   color: var(--muted);
   padding: 9px 13px;
-  font: 11px 'DM Mono', monospace;
+  font: 500 13px 'Space Grotesk', sans-serif;
   cursor: pointer;
 }
 
